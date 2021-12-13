@@ -1,0 +1,72 @@
+#todoList label{
+  width: 80%;
+}
+#todoList li{
+  list-style-type: none;
+}
+
+.uncompleted label{
+  color: #afa7a7;
+  text-decoration: line-through;
+}
+#todoList .btn{
+  margin-left: 10px;
+}
+body{
+  background-image: url(bg1.gif);
+  background-size: cover;
+   font-family: 'Fuzzy Bubbles', cursive;
+   font-size: 25px;
+   font-weight: 500;
+   color: rgb(255, 255, 255);
+   text-align: center;
+}
+button{
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  font-size: 20px;
+  font-family: monospace;
+  font-weight: 400;
+  background-color: rgb(238, 59, 95);
+  color: rgb(12, 80, 23);
+  border: none;
+}
+button:hover{
+  background-color: #b4373d; 
+  color: white;
+}
+h2{
+  font-size: 40px;
+  font-family: 'Mountains of Christmas', cursive;
+  color: #eb2727;
+  text-decoration: underline;
+}
+#addButton{
+  flex: right;
+ border-color: none;
+ border:none;
+  font-family: monospace;
+  font-weight: 4000;
+  background-color: rgb(238, 59, 95);
+  color: rgb(22, 83, 10);
+}
+.container{
+background-image: url(ba.jpg);
+  border-radius: 12px;
+  length: 700px;
+  width: 500px;
+  margin: auto;
+}
+#itemInput{
+  transition: width 0.4s ease-in-out;
+border-color: rgb(224, 15, 57);
+font-family: monospace;
+color: crimson;
+background-color: rgb(5, 5, 82);
+}
+#itemInput:focus{
+  width: 50%;
+  font-family: monospace;
+color: crimson;
+font-size: 20px;
+}
